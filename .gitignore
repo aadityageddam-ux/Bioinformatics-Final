@@ -1,0 +1,13 @@
+# Raw third-party data is fetched, never committed. See data/raw/MANIFEST.tsv
+data/raw/*
+!data/raw/MANIFEST.tsv
+!data/raw/.gitkeep
+data/derived/*
+!data/derived/.gitkeep
+
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store

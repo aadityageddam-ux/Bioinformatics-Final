@@ -1,0 +1,70 @@
+row	section	label	cell_b	cell_c	reason
+4	Primers for qPCR	Name	Sequence-forward (5'-3')	Sequence-reverse (5'-3')	no plain-DNA sequence in either sequence column
+25	Primers for cloning	For SalI and AgeI sites addition into the pHAGE2 backbone	Sequence (5'-3')	Source for acquisition	no plain-DNA sequence in either sequence column
+28	Primers for cloning	For cloning of SOX variants into the pHAGE2 backbone	Sequence (5'-3')	Source for acquisition	no plain-DNA sequence in either sequence column
+61	Primers for cloning	For cloning of SOX variants into the pLVTHM-3xflag backbone	Sequence (5'-3')	Source for acquisition	no plain-DNA sequence in either sequence column
+66	Primers for cloning	For cloning of human factors into the pHAGE2 backbone	Sequence (5'-3')	Source for acquisition	no plain-DNA sequence in either sequence column
+81	Primers for cloning	For cloning of DNA binding domains into the pETG20a backbone	Sequence (5'-3')	Source for acquisition	no plain-DNA sequence in either sequence column
+84	Primers for cloning	For cloning of SOX17 and SOX17FNV into the pET backbone for LLPS	Sequence (5'-3')	Source for acquisition	no plain-DNA sequence in either sequence column
+87	Primers for cloning	For cloning of GFP-SOX2 and GFP-SOX17FNV into the pHAGE2 backbone for cellular LLPS	Sequence (5'-3')	Source for acquisition	no plain-DNA sequence in either sequence column
+93	DNA oligos used for EMSA	Motif	Forward	Reverse	no plain-DNA sequence in either sequence column
+99	List of plasmids	Name	Source	Identifier	no plain-DNA sequence in either sequence column
+100	List of plasmids	pHAGE2-TetO-mSox2	Addgene (Sergiy Velychko et al., 2019)	#136612	no plain-DNA sequence in either sequence column
+101	List of plasmids	pHAGE2-TetO-mOct4	Addgene (Sergiy Velychko et al., 2019)	#136611	no plain-DNA sequence in either sequence column
+102	List of plasmids	pHAGE2-TetO-mKlf4	Addgene (Sergiy Velychko et al., 2019)	#136613	no plain-DNA sequence in either sequence column
+103	List of plasmids	pHAGE2-TetO-mcMyc	Addgene (Sergiy Velychko et al., 2019)	#136614	no plain-DNA sequence in either sequence column
+104	List of plasmids	pHAGE2-TetO-mSox17	This study	N.A.	no plain-DNA sequence in either sequence column
+105	List of plasmids	pHAGE2-TetO-mSox17FNV	This study	N.A.	no plain-DNA sequence in either sequence column
+106	List of plasmids	pHAGE2-TetO-mSox17FNV-ΔTA	This study	N.A.	no plain-DNA sequence in either sequence column
+107	List of plasmids	pHAGE2-TetO-mSox17FNV-ΔTAD	This study	N.A.	no plain-DNA sequence in either sequence column
+108	List of plasmids	pHAGE2-TetO-mSox17FNV-ΔC	This study	N.A.	no plain-DNA sequence in either sequence column
+109	List of plasmids	pHAGE2-TetO-mSox17FNV-ΔC+C2	This study	N.A.	no plain-DNA sequence in either sequence column
+110	List of plasmids	pHAGE2-TetO-mSox17FNV-ΔC+C2+C3	This study	N.A.	no plain-DNA sequence in either sequence column
+111	List of plasmids	pHAGE2-TetO-mSox17FNV-ΔCentral*	This study	N.A.	no plain-DNA sequence in either sequence column
+112	List of plasmids	pHAGE2-TetO-mSox17FNV-Δcentral	This study	N.A.	no plain-DNA sequence in either sequence column
+113	List of plasmids	pHAGE2-TetO-mSox17FNV-ΔC1ΔC2ΔC3	This study	N.A.	no plain-DNA sequence in either sequence column
+114	List of plasmids	pHAGE2-TetO-mSox17FNV-ΔN	This study	N.A.	no plain-DNA sequence in either sequence column
+115	List of plasmids	pHAGE2-TetO-mSox17FNV-ΔNΔC1ΔC3	This study	N.A.	no plain-DNA sequence in either sequence column
+116	List of plasmids	pHAGE2-TetO-mSox17FNV-ΔC1ΔC3	This study	N.A.	no plain-DNA sequence in either sequence column
+117	List of plasmids	pHAGE2-TetO-mSox17FNV-ΔC1ΔC2	This study	N.A.	no plain-DNA sequence in either sequence column
+118	List of plasmids	pHAGE2-TetO-mSox17FNV-ΔC1	This study	N.A.	no plain-DNA sequence in either sequence column
+119	List of plasmids	pHAGE2-TetO-mSox17FNV-ΔC2	This study	N.A.	no plain-DNA sequence in either sequence column
+120	List of plasmids	pHAGE2-TetO-mSox17FNV-ΔC3	This study	N.A.	no plain-DNA sequence in either sequence column
+121	List of plasmids	pHAGE2-TetO-mSox17FNV-ΔC3*	This study	N.A.	no plain-DNA sequence in either sequence column
+122	List of plasmids	pHAGE2-TetO-mSox17FNVC2	This study	N.A.	no plain-DNA sequence in either sequence column
+123	List of plasmids	pHAGE2-TetO-mSox17C2	This study	N.A.	no plain-DNA sequence in either sequence column
+124	List of plasmids	pHAGE2-TetO-mSox2C17	This study	N.A.	no plain-DNA sequence in either sequence column
+125	List of plasmids	pHAGE2-TetO-mSox2bcat17	This study	N.A.	no plain-DNA sequence in either sequence column
+126	List of plasmids	pHAGE2-TetO-mSox17FNV-ΔC-VPR	This study	N.A.	no plain-DNA sequence in either sequence column
+127	List of plasmids	pHAGE2-TetO-mSox17-ΔC-VPR	This study	N.A.	no plain-DNA sequence in either sequence column
+128	List of plasmids	pHAGE2-TetO-mSox17FNV-VPR	This study	N.A.	no plain-DNA sequence in either sequence column
+129	List of plasmids	pHAGE2-TetO-mSox2-VPR	This study	N.A.	no plain-DNA sequence in either sequence column
+130	List of plasmids	pHAGE2-TetO-mSox2-ΔC-VPR	This study	N.A.	no plain-DNA sequence in either sequence column
+131	List of plasmids	pHAGE2-TetO-hSOX2	This study	N.A.	no plain-DNA sequence in either sequence column
+132	List of plasmids	pHAGE2-TetO-hOCT4	This study	N.A.	no plain-DNA sequence in either sequence column
+133	List of plasmids	pHAGE2-TetO-hSOX17FNV	This study	N.A.	no plain-DNA sequence in either sequence column
+134	List of plasmids	pHAGE2-TetO-hKLF4	This study	N.A.	no plain-DNA sequence in either sequence column
+135	List of plasmids	pHAGE2-TetO-hcMYC	This study	N.A.	no plain-DNA sequence in either sequence column
+136	List of plasmids	pHAGE2-TetO-hOCT4-KLF4-cMYC	This study	N.A.	no plain-DNA sequence in either sequence column
+137	List of plasmids	FUW-tetO-hOKMS	Addgene	#51543	no plain-DNA sequence in either sequence column
+138	List of plasmids	FUW-tetO-hOKMSOX17FNV	This study	N.A.	no plain-DNA sequence in either sequence column
+139	List of plasmids	FUW-tetO-hOKMminiSOX	This study	N.A.	no plain-DNA sequence in either sequence column
+140	List of plasmids	FUW-M2rtTA	Addgene	#20342	no plain-DNA sequence in either sequence column
+141	List of plasmids	pMD2.G	Addgene	#12259	no plain-DNA sequence in either sequence column
+142	List of plasmids	psPAX2	Addgene	#12260	no plain-DNA sequence in either sequence column
+143	List of plasmids	pLVTHM-3xflag-Oct4	(Malik, V. et al., 2019)	N.A.	no plain-DNA sequence in either sequence column
+144	List of plasmids	pLVTHM-3xflag-Sox17	This study	N.A.	no plain-DNA sequence in either sequence column
+145	List of plasmids	pLVTHM-3xflag-Sox17FNV	This study	N.A.	no plain-DNA sequence in either sequence column
+146	List of plasmids	pLVTHM-3xflag-Sox2	This study	N.A.	no plain-DNA sequence in either sequence column
+147	List of plasmids	pLVTHM-3xflag-miniSOX	This study	N.A.	no plain-DNA sequence in either sequence column
+148	List of plasmids	pETG20a-Sox2-79aa	This study	N.A.	no plain-DNA sequence in either sequence column
+149	List of plasmids	pETG20a-Sox17-79aa	This study	N.A.	no plain-DNA sequence in either sequence column
+150	List of plasmids	pETG20a-Sox17FNV-81aa	This study	N.A.	no plain-DNA sequence in either sequence column
+151	List of plasmids	pET-mCherry-MED1-IDR	(Boija, A. et al., 2018)	N.A.	no plain-DNA sequence in either sequence column
+152	List of plasmids	pET-mEGFP-mSox2	(Boija, A. et al., 2018)	N.A.	no plain-DNA sequence in either sequence column
+153	List of plasmids	pET-mEGFP-mSox17	This study	N.A.	no plain-DNA sequence in either sequence column
+154	List of plasmids	pET-mEGFP-mSox17FNV	This study	N.A.	no plain-DNA sequence in either sequence column
+155	List of plasmids	pET-mEGFP-miniSOX	This study	N.A.	no plain-DNA sequence in either sequence column
+156	List of plasmids	pHAGE2-TetO-mEGFP-mSox2	This study	N.A.	no plain-DNA sequence in either sequence column
+157	List of plasmids	pHAGE2-TetO-mEGFP-mSox17FNV	This study	N.A.	no plain-DNA sequence in either sequence column
+158	List of plasmids	pLenti-mEGFP	This study	N.A.	no plain-DNA sequence in either sequence column

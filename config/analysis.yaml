@@ -1,0 +1,59 @@
+# Pre-specified analysis parameters.
+#
+# Everything in this file is fixed BEFORE any outcome is examined. The six
+# properties in particular are frozen: adding a seventh after seeing the data
+# would turn this study into a fishing expedition. If a parameter changes, the
+# change is recorded in the git history with a reason, not edited silently.
+#
+# Frozen: 2026-11-12
+
+sources:
+  sox17_refseq_mrna: NM_011441.6     # mouse Sox17, 419 aa protein NP_035571.1
+  sox2_refseq_mrna:  NM_011443.4     # mouse Sox2,  319 aa protein NP_035573.3
+  sox17_uniprot:     Q61473          # SOX17_MOUSE, curated domain boundaries
+  sox2_uniprot:      P48432          # SOX2_MOUSE
+  hu2023_pmcid:      PMC10516664     # Hu et al. 2023, Nucleic Acids Res 51:8934-8956
+  hu2023_doi:        10.1093/nar/gkad597
+
+expected:
+  # Independent checks. A mismatch is a hard failure, not a warning.
+  sox17_protein_length: 419
+  sox2_protein_length:  319
+  s6_colony_count_rows: 543
+
+parent_construct:
+  name: SOX17FNV
+  # Triple substitution at HMG-box positions 46, 53 and 57 (Hu et al. 2023).
+  # Absolute residue numbers are DERIVED in Phase 1 from the UniProt HMG-box
+  # boundary and then validated. They are deliberately not hard-coded here.
+  hmg_relative_substitution_positions: [46, 53, 57]
+
+properties:
+  # The six, frozen. "retained tail" means everything C-terminal to the HMG box.
+  - retained_length            # residues retained; this is the null model
+  - net_charge_ph74            # standard side-chain pKa values
+  - charge_per_100_residues    # net charge normalised by length
+  - disorder_fraction          # metapredict, same predictor as the source paper
+  - mean_hydrophobicity_kd     # Kyte-Doolittle
+  - aromatic_fraction          # F + W + Y
+
+measurement_filters:
+  # Applied to Supplementary Table S6 so that no comparison crosses species or
+  # delivery system. Row counts are logged at every step.
+  species: mouse
+  detection_method: GFP_positive_colonies
+  delivery_system: monocistronic
+
+normalisation:
+  # As described in the source paper: each construct's colony count divided by
+  # the mean count for the full-length SOX17FNV control in the SAME biological
+  # replicate.
+  reference_construct: SOX17FNV
+  within: biological_replicate
+
+statistics:
+  correlation: spearman          # rank-based; relationship need not be linear
+  partial_control: retained_length
+  bootstrap_replicates: 10000
+  random_seed: 20261112
+  report_p_values: false         # n is too small and constructs are nested

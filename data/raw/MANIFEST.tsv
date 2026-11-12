@@ -1,0 +1,6 @@
+filename	sha256	bytes	source_url	retrieved_utc
+NM_011441.6.gb	eb215b1ed94cd09f91e47dd1f0a64ec655c9e4e3bfbc98c13c978032803b6292	13841	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_011441.6&rettype=gb&retmode=text&tool=sox17-tail-analysis	2026-11-12T18:42:39Z
+NM_011443.4.gb	620a05c6f439e8451782e83dd7abf0a518defdac3980ae4c7445851ae98ad7b1	14357	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_011443.4&rettype=gb&retmode=text&tool=sox17-tail-analysis	2026-11-12T18:42:40Z
+P48432.txt	603aa9b27229e7979ab817e32ad711d917ed94fa75118f057d252308850ca3dd	21047	https://rest.uniprot.org/uniprotkb/P48432.txt	2026-11-12T18:42:41Z
+PMC10516664_supplementary.zip	14fa364cbf391fa92c467ef8c939631674a29071179ead66cbdb668f4fb71aeb	6542288	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10516664/supplementaryFiles	2026-11-12T18:42:44Z
+Q61473.txt	27dead12d57e8ed9fb658d297f7c5a3beeddce430d2f5883fded8c0b341641ef	20442	https://rest.uniprot.org/uniprotkb/Q61473.txt	2026-11-12T18:42:41Z
